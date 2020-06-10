@@ -1,7 +1,7 @@
 /* Pure CSS tabs taken from https://codepen.io/woranov/pen/NRqLWK by Alex*/
 @import "bourbon";
 
-@import 'https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:300,400';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@300;400&display=swap');
 
 
 /* colors */
@@ -24,7 +24,6 @@ $breakpoints: (
   medium: #{$tab-count*250px},
   small: #{$tab-count*150px}
 );
-
 
 /* selectors relative to radio inputs */
 $label-selector: "~ ul > li";
